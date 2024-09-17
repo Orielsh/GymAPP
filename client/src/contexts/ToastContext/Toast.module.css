@@ -1,0 +1,15 @@
+.container{
+    z-index: 1000;
+    right: 10px;
+    bottom: 10px;
+    @media (max-width: 576px) {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+      }
+
+}
+
+.toast{
+    color: white;
+}

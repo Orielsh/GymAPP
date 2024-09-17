@@ -1,0 +1,12 @@
+.itemWrapper{
+    width: 100%;
+}
+
+.itemLabel{
+    width: 100%;
+}
+
+.dropdown{
+    height: 150px;
+    overflow-y: hidden;
+}

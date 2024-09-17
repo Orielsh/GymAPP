@@ -1,0 +1,48 @@
+.title {
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-weight: 900;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.f_grow {
+  flex-grow: 1;
+}
+
+
+.root {
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-6));
+  border: rem(1px) solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-4));
+}
+
+.indicator {
+  background-image: linear-gradient(to right,
+      var(--mantine-color-lime-filled),
+      var(--mantine-color-green-filled));
+}
+
+.control {
+  &::before {
+    display: none;
+  }
+}
+
+.label {
+
+  &,
+  &:hover {
+    &[data-active] {
+      color: var(--mantine-color-white);
+    }
+  }
+}
+
+.asterisk{
+  color: var(--input-asterisk-color, var(--mantine-color-error));
+}

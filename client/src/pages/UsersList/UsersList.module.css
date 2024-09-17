@@ -1,0 +1,21 @@
+.card {
+    flex: 1 1 280px;
+    max-width: 280px;
+}
+
+.back{
+    top: "15px";
+    left: "15px";
+    background-color: #ccc;
+}
+
+.dropdown{
+    height: 80px;
+    overflow-y: hidden;
+}
+
+.link{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 5px;
+}

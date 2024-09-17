@@ -1,0 +1,14 @@
+.root{
+    flex-grow: 1;
+}
+
+.list {
+    overflow: hidden;
+    transition: all 0.1s ease-in-out;
+    width: 0;
+    top: 0;
+    left: 0;
+    border-right:  1px solid #ccc;
+    background-color: light-dark(var(--mantine-color-black-2), var(--mantine-color-dark-4));
+    z-index: 2;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+    overflow: hidden;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+    transition: all 0.1s ease-in-out;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-right: 1px solid #eee;
+    background-color: #fff;
+    width: 0;
+
+    @media (max-width: 1200px) {
+        position: absolute;
+    }
+}
+
+.mantine-NavLink-root {
+    border: 1px solid black;
+    background-color: #000;
+}
