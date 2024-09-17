@@ -26,6 +26,21 @@ Additionally, here is a site map for reference:
 5. Open the provided `localhost` link in your browser to access the application.
 
    there is env file that already defined and uplodad. so not extra setting needed.
+    
+## To see all the application functionallity you should sign-in with admin account
+### trainee account have the least functional options
+if you used the seed file then you should login with this credentials:  
+
+   username: user@gmail.com
+   password: Admin123!
+
+   for trainer account use:
+   user2@gmail.com
+   Trainer123!
+
+   for trainee use:
+   user3@gmail.com
+   Trainee123!
 
 # Technologies Used
 
