@@ -27,7 +27,9 @@ Additionally, here is a site map for reference:
 
    there is env file that already defined and uplodad. so not extra setting needed.
 
-# Technologies used:
-Frontend: Used React with Mantine UI framework.
-Backend: Node & Express and mongoose as db interface
-Database: MongoDB
+# Technologies Used
+
+- **Frontend**: React with Mantine UI framework
+- **Backend**: Node.js, Express, and Mongoose for database interaction
+- **Database**: MongoDB
+
