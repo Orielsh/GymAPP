@@ -31,16 +31,17 @@ Additionally, here is a site map for reference:
 ### trainee account have the least functional options
 if you used the seed file then you should login with this credentials:  
 
-   username: user@gmail.com
+Admin:  
+   username: user@gmail.com  
    password: Admin123!
 
-   for trainer account use:
-   user2@gmail.com
-   Trainer123!
+Trainer:  
+   username: user2@gmail.com  
+   password: Trainer123!
 
-   for trainee use:
-   user3@gmail.com
-   Trainee123!
+Trainee:  
+   username: user3@gmail.com  
+   password: Trainee123!
 
 # Technologies Used
 
