@@ -1,2 +1,2 @@
 export const MIN_USER_AGE = 16;
-export const baseURL = "http://127.0.0.1:3000/api";
+export const baseURL = "https://gym-4m0bzqodn-orielshs-projects.vercel.app/api";
