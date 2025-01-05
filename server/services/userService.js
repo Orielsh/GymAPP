@@ -1,5 +1,5 @@
 const userDAL = require('../dal/user.dal');
-const AccessError = require("../errors/accessError");
+const AccessError = require("../errors/AccessError");
 
 // Service function to get all users (can be modified for pagination or filtering)
 //Only adming or trainers can get list of all users
