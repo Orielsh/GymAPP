@@ -1,6 +1,5 @@
 import { Flex, NavLink } from "@mantine/core";
 import classes from "./SidePanel.module.css";
-import { Link } from "react-router-dom";
 
 interface ISideNavProps {
     isOpen: boolean,
