@@ -26,3 +26,5 @@ connectDB().then(() => {
     // Run server
     app.listen(PORT, () => console.log(`Server is listening for requests on http://127.0.0.1:${PORT}`))
   });   // first connect to db and only then start listen.
+
+module.exports = app;
