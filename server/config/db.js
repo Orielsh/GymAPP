@@ -8,7 +8,7 @@ if (mode === 'prod') {
   uri = process.env.MONGODB_URI
   console.log('Environment set to PRODUCTION mode')
 } else {
-  uri = process.env.MONGODB_URI_DEV
+  uri = process.env.MONGODB_URI
   console.log('Environment set to DEVELOPMENT mode')
 }
 
