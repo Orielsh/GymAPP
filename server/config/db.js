@@ -3,7 +3,7 @@ require('dotenv').config();
 const mode = process.env.NODE_ENV;  // 'prod' or 'dev'
 
 let uri;
-
+console.log(mode);
 if (mode === 'prod') {
   uri = process.env.MONGODB_URI
   console.log('Environment set to PRODUCTION mode')
