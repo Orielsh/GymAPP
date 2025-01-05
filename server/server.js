@@ -22,7 +22,7 @@ app.use('/api/exercises', require("./routes/exerciseRoutes"));
 app.use(
     cors({
         origin: [
-            https://gym-1xtgrhmup-orielshs-projects.vercel.app/login
+            https://gym-app-orielshs-projects.vercel.app/
         ],
         methods: ['GET', 'POST', 'PUT', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization'],
