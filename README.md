@@ -1,5 +1,8 @@
 # Class Full Stack Project Assignment
 
+### Check this online example:
+https://gym-app-navy-two.vercel.app/
+
 # About the Project
 
 This project simulates an administrative tool for gym owners. The system manages three types of users: admins, trainers, and trainees. Trainers have personalized plans, workouts, and exercises, and they manage their trainees. A trainer can monitor their trainees' progress, adjust workout plans, and make changes based on their assessments.
