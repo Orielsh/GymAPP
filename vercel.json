@@ -12,11 +12,5 @@
       "dest": "server/server.js"
     }
   ],
-  "buildCommand": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/client/index.html"
-    }
-  ]
+  "buildCommand": "npm install --prefix server && npm install --prefix client && npm run build --prefix client"
 }
