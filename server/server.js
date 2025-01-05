@@ -19,6 +19,17 @@ app.use('/api/plans', require("./routes/plansRoute"));
 app.use('/api/workouts', require("./routes/workoutRoutes"));
 app.use('/api/exercises', require("./routes/exerciseRoutes"));
 
+app.use(
+    cors({
+        origin: [
+            "https://gym-3p7e93kbx-orielshs-projects.vercel.app/",
+        ],
+        methods: ['GET', 'POST', 'PUT', 'OPTIONS'],
+        allowedHeaders: ['Content-Type', 'Authorization'],
+        credentials: true,
+    })
+);
+
 const { PORT } = process.env;
 
 // Connect to database
