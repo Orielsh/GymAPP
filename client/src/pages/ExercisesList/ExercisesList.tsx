@@ -63,6 +63,7 @@ export default function ExercisesList() {
         } catch (error) {
             setError(error as Error);
         }
+        console.log(error)
     }
 
     const rows = exercisesList?.map((exercise) => (
